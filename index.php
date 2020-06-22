@@ -52,7 +52,7 @@
         echo 'Last name: '.$document["last_name"]."<br />";
         echo 'Favorite cat: '.$document["favorite_cat"]."<br />";
         echo '<a href="show.php?mid='.$document['_id'].'">Show</a><br />';
-        echo '<a href="index.php?action=delete&did='.$document['_id'].'">Delete</a><br /><br />';
+        echo '<a href="index.php?did='.$document['_id'].'">Delete</a><br /><br />';
     }
   ?>
   </body>
